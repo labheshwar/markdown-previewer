@@ -14,8 +14,8 @@ function App() {
   return (
     <div>
       <div className='main'>
-        <div id='edit-header' className='px-3'>
-          <h1>Editor</h1>
+        <div id='edit-header' className='px-3' style={{textAlign: 'center'}}>
+          <h1 >Editor</h1>
         </div>
         <textarea
           id='editor'
